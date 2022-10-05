@@ -1,8 +1,9 @@
 geo = str(input("Район: "))
 geo_low = geo.lower()
-if geo_low != "чон арык" or "байтик" or "ортосай":
-    print("\nэти районы нам не подходят")
-else:
+a = "чон арык"
+b = "байтик"
+c = "ортосай"
+if geo_low == a or b or c:
     mat = str(input("Кирпич или бетон: "))
     mat_low = mat.lower()
     if mat_low == "кирпич":
@@ -27,3 +28,5 @@ else:
             print("\nэто не то, что мы выбираем")
     else:
         print("\nэто не то, что мы выбираем")
+else:
+    print("это нам не подходит")
