@@ -3,7 +3,7 @@ geo_low = geo.lower()
 a = "чон арык"
 b = "байтик"
 c = "ортосай"
-if geo_low == a or b or c:
+if geo_low == a or geo_low == b or geo_low == c:
     mat = str(input("Кирпич или бетон: "))
     mat_low = mat.lower()
     if mat_low == "кирпич":
