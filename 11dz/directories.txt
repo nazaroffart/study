@@ -1,0 +1,2 @@
+w
+Applications/     bin/              opt/              var ../               Library/          cores/            private/ .VolumeIcon.icns@ System/           dev/              sbin/ .file             Users/            etc@              tmp@  .vol/             Volumes/          home@             usr/
